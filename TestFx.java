@@ -12,7 +12,7 @@ public class TestFx extends Application {
     public void start(Stage stage) {
         Group r = new Group();
         //Scene s = new Scene(r);
-        Scene s = new Scene(r, 500, 500, Color.WHITESMOKE); //颜色不对
+        Scene s = new Scene(r, 500, 500, Color.WHITESMOKE); //颜色不对   //
         stage.setTitle("value");
         stage.setScene(s);
         stage.centerOnScreen();
